@@ -22,6 +22,9 @@ public class User {
 	@Expose
 	private String email;
 	
+	public User() {
+	}
+	
 	public User(Long id, String name, String age, String email) {
 		this.id = id;
 		this.name = name;
